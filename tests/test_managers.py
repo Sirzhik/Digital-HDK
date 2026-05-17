@@ -357,7 +357,7 @@ class TestCircuitManagerIntegration:
     def test_load_and_save_jk_dig_copy(self):
         """Test loading JK.dig, saving a copy and reloading."""
         try:
-            original_mgr = CircuitManager("JK.dig")
+            original_mgr = CircuitManager("tests/data/JK.dig")
             original_elements = len(original_mgr.elements.list_all())
             original_wires = len(original_mgr.wires.get_all_wires())
             
