@@ -343,7 +343,7 @@ class TestCircuitManagerIntegration:
     def test_load_jk_dig(self):
         """Test loading existing JK.dig file."""
         try:
-            mgr = CircuitManager("JK.dig")
+            mgr = CircuitManager("tests/data/JK.dig")
             
             assert len(mgr.elements.list_all()) > 0
             assert len(mgr.wires.get_all_wires()) > 0
