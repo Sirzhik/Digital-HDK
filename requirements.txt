@@ -1,0 +1,9 @@
+annotated-types==0.7.0
+asyncio==4.0.0
+lxml==6.1.0
+pydantic==2.13.3
+pydantic_core==2.46.3
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+pytest>=7.0.0
+pytest-cov>=3.0.0
