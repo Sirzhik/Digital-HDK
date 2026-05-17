@@ -1,0 +1,17 @@
+.pytest_cache/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.dig
+htmlcov/
+coverage.xml
+*.log
+*.bak
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+instructions/
